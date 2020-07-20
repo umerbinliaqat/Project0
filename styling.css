@@ -1,12 +1,30 @@
+#googleimage {
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
 #searchbar {
     text-align:center;
-    width: 400px;
-    margin: 150px 500px 250px 500px;
+    width: 600px;
+    margin: 125px 500px 0px 500px;
 }
 #bar{
-    width: 400px;
+    width: 600px;
+    border-radius: 25px;
+    height: 40px;
+    border: 1px solid rgb(172, 172, 172);
 }
 .buttons {
     widows: 100px;
-    margin: 20px;
+    margin: 25px 5px 0px 5px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    color:  rgb(100, 100, 100);
+    
+}
+
+.buttons:hover {
+    
 }
