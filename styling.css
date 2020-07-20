@@ -1,0 +1,12 @@
+#searchbar {
+    text-align:center;
+    width: 400px;
+    margin: 150px 500px 250px 500px;
+}
+#bar{
+    width: 400px;
+}
+.buttons {
+    widows: 100px;
+    margin: 20px;
+}
