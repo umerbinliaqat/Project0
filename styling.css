@@ -1,17 +1,37 @@
-#googleimage {
+#topbar {
+    text-align: right;
+    margin:20px 10px 0px 0px;
+    text-decoration:none;
+    min-width: 1200px;
+}
+.links {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 13px;
+    font-family: Arial;
+}
+#gimage {
     text-align: center;
     margin: 100px 0px 0px 0px;
+    min-width: 1200px;
 }
-#searchbar {
+#search {
     text-align:center;
-    width: 600px;
-    margin: 125px 500px 0px 500px;
+    min-width: 1200px;
+    margin: 0px 0px 0px 0px;
 }
 #bar{
     width: 600px;
     border-radius: 25px;
-    height: 40px;
+    height: 45px;
     border: 1px solid rgb(172, 172, 172);
+    background-image: url(icon.jpg), url(icon2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 18px, 16px;
+    background-position: 3% 50%, 97% 50%;
+    padding: 0px 50px 0px 50px;
+    font-size: 16px;
 }
 .buttons {
     widows: 100px;
@@ -26,5 +46,8 @@
 }
 
 .buttons:hover {
-    
+    color: black;
+    background-color: rgb(231, 231, 231);
+    border: 1px rgb(100, 100, 100);
+    border-radius: 5px;
 }
