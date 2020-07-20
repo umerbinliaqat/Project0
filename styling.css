@@ -10,18 +10,18 @@
     margin: 10px;
     font-size: 13px;
     font-family: Arial;
+    font-style: normal;
 }
-#gimage {
+#g1image {
     text-align: center;
-    margin: 100px 0px 0px 0px;
+    margin-top: 100px;
     min-width: 1200px;
 }
 #search {
     text-align:center;
     min-width: 1200px;
-    margin: 0px 0px 0px 0px;
 }
-#bar{
+#bar1{
     width: 600px;
     border-radius: 25px;
     height: 45px;
@@ -50,4 +50,26 @@
     background-color: rgb(231, 231, 231);
     border: 1px rgb(100, 100, 100);
     border-radius: 5px;
+}
+
+#g2image {
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+    min-width: 1200px;
+}
+
+#bar2 {
+    width: 600px;
+    padding-left: 50px;
+    padding-right: 175px;
+    border-radius: 30px;
+    border: 1px solid rgb(172, 172, 172);
+    height: 45px;
+    font-size: 16px;
+    background-image: url(icon.jpg), url(iconcamera.jpg), url(icon2.jpg), url(iconblue.jpg);
+    background-repeat: no-repeat;
+    background-position: 3%, 81%, 88%, 98%;
+    background-size: 20px, 75px, 18px, 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
 }
