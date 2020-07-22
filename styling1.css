@@ -1,0 +1,128 @@
+.links {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 13px;
+    font-family: Arial;
+    font-style: normal;
+}
+
+#top {
+    height: 60px;
+    background-image: url(google1.png);
+    background-color: rgb(240, 240, 240);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-right:10px;
+    background-position: 1% 60%;
+    min-width: 1200px;
+}
+
+#mid {
+    text-align: left;
+    padding: 25px 0px 50px 45px;
+    color: Red;
+    font-family: Arial;
+    font-size: 20px;
+    border-bottom: rgb(240, 240, 240) 1px solid;
+    height: 50px;
+    box-sizing: border-box  ;
+}
+
+#h1 {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#h2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#grid1 {
+    color: rgb(77, 77, 77);
+    padding-top: 45px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    line-height: 0.75;
+    grid-row-gap: 20px;
+    grid-template-columns: 200px minmax(50px, 275px) 20px minmax(50px, 275px) auto;
+    display: grid;
+    position: absolute;
+    font-family: Arial;
+    border-bottom: 1px rgb(240, 240, 240) solid;
+}
+
+.textbox {
+    min-width: 200px;
+    width: 100%;
+    height: 25px;
+    font-family: Arial;
+    border: 1px darkgrey solid;
+
+}
+
+.textbox2 {
+    min-width: 70px;
+    width: 100%;
+    height: 25px;
+    font-family: Arial;
+    border: 1px darkgrey solid;
+}
+
+.lefth {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.explanations {
+    font-size: 11px;
+}
+
+.explanations > span {
+    font-family: monospace;
+}
+
+#to {
+    text-align: center;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1050px) {
+    #h2 {
+        visibility: hidden;
+    }
+    .explanations {
+        visibility: hidden;
+    }
+}
+
+#grid1 > div {
+    margin: 0px 10px 0px 10px;
+}
+
+#item0 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#item1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#item2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#item3 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#item4 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
