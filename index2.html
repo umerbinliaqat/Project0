@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="styling1.css">
     </head>
     <body style="margin: 0px; padding: 0px">
-        <form action="http://www.google.com/search">
+
         <div id="top">
             <a href="index.html" class="links">Google Search</a>
             <a href="index1.html" class="links">Google Images</a>
@@ -18,6 +18,8 @@
             Advanced Search
         </div>
 
+        <!-- Opens a responsive grid layout with 5 coloums-->
+
         <div id="grid1">
 
             <div id="h1">Find pages with...</div>
@@ -25,6 +27,9 @@
             <div id="h2">To do this in the search box.</div>
             <div class="lefth"><br>all these words:</div>
             <div id="item1">
+
+                <!-- opens a single form to collect text enteries -->
+
                 <form action="http://www.google.com/search">
                 <input type="text" name="as_q" class="textbox">
                 
@@ -67,8 +72,18 @@
             <div class="explanations" style="line-height: 1.25;">Put two full stops between the numbers and add the unit of 
                 measurement<br><span>10..35 kg, £300..£500, 2010..2011</span>
             </div>
-            <button type="submit" hidden="hidden"></button>
-        </div>
+
+            <!-- empty grid coloums -->
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div style="padding-right: 0px; margin-right: 5px">
+            <button type="submit" style="background-color: rgb(23, 160, 206); color: white; font-weight: bold;
+             font-size: 12px; float: right;border: hidden; border-radius: 3px; height: 30px;width: 125px; text-align: center;">Advanced Search</button>
+            </div>    
+    </div>
         </form>
     </body>
 </html>
